@@ -1,0 +1,103 @@
+
+.footer p { /* This is how you call a p tag that lives within the element with class 'footer' */
+	background-color: #F2F2F2;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.header {
+	height: auto;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #F2F2F2;
+	color: #8C0E27;
+	text-align: center;
+	font-family: 'Volkhov', serif;
+}
+h4 {
+	font-size: 40px;
+	font-family: 'Volkhov', serif;
+}
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+}
+h5 {
+	font-size: 22px;
+	font-family: 'Poppins', serif;
+	text-align: center;
+	font-weight: bold;
+}
+figure { 
+	float: right
+}
+
+figcaption {
+  font-size: 14px;
+  display: block;
+  align: center;
+  font-family: 'Poppins', serif;
+}
+#iframe_1 {
+	min-width: 70%;
+	margin-top: 20px;
+}
+.list {
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 2px solid black;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+    width: 30%;
+    font-size: 20px;
+}
+li {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.iframe_2 {
+	float: right;
+	min-width: 40%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-left: 10px;
+ 	padding-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+figure {
+	float: none;
+	align-content: center;
+}
+.list {
+	float: none;
+	min-width: 90%;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+}
+#iframe_1 {
+ 	min-width: 90%;
+ 	margin-right: 10px;
+ }
+.iframe_2 {
+	float: none;
+	min-width: 90%;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+}
+
+
+
+}
